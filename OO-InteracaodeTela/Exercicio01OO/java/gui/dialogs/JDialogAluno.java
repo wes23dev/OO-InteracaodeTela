@@ -90,9 +90,6 @@ public class JDialogAluno extends javax.swing.JDialog {
 
         return p;
     }
-    public JDialogAluno(java.awt.Frame parent, boolean modal) {
-        super(parent, modal);
-        initComponents();
 
 
 }
