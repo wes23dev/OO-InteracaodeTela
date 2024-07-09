@@ -21,7 +21,9 @@ public class JDialogAluno extends javax.swing.JDialog {
     
     
   
-   
+    public JDialogAluno(java.awt.Frame parent, boolean modal) {
+        super(parent, modal);
+        initComponents();
     
         this.gerenciadorAlunos = new gerenciadorAluno();
         this.alunoEditando = new Aluno();
@@ -30,7 +32,7 @@ public class JDialogAluno extends javax.swing.JDialog {
 
         
         
-        initComponents();
+        
         this.habilitarCampos(false);
         this.limparCampos();
 
