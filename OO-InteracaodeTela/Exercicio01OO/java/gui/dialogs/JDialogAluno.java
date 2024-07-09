@@ -22,7 +22,7 @@ public class JDialogAluno extends javax.swing.JDialog {
     
   
    
-    public JDialogAluno(){
+    
         this.gerenciadorAlunos = new gerenciadorAluno();
         this.alunoEditando = new Aluno();
         this.editando = false;
